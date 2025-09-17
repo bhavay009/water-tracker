@@ -6,7 +6,7 @@ import Track from './pages/Track';
 import Reminder from './pages/Reminder';
 import Stats from './pages/stats';
 import Footer from './components/Footer/Footer';
-import Login from './pages/Login';
+import Login from './pages/login';
 
 const App = () => {
   return (
