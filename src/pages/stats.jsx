@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { WaterContext } from '../Context/WaterContext';
-import './Stats.css';
+import './stats.css';
 
 function Stats() {
   const { intake, goal } = useContext(WaterContext);
