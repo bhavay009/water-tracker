@@ -1,0 +1,56 @@
+h1, h2 {
+  margin: 10px 0;
+  text-align: center;
+  color: #333;
+}
+
+p {
+  margin: 5px 0 15px;
+  text-align: center;
+  color: #333;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+  color: #3498DB;
+ 
+}
+
+.buttons button {
+  background: white;
+  border: 1px solid #ADD6F9;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.buttons span {
+  color: #3498DB;
+  font-weight: bold;
+
+}
+
+.full {
+  grid-column: span 2;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px 0;
+  font-size: 14px;
+  text-align: center;
+}
+.change{
+  color: #3498DB;
+
+}
